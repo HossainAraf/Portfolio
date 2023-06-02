@@ -74,7 +74,7 @@ Run the below command:
 
 ```sh
 cd <your disered folder name >
-git clone 
+git clone https://github.com/HossainAraf/Portfolio
 ```
 ### Install
 
