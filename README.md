@@ -97,8 +97,8 @@ Open index.html file either directly or using live server
 
 👤 Md Arafat Hossain
 
-- GitHub: HossainAraf (https://github.com/HossainAraf)
-- LinkedIn: Md. Arafat Hossain (https://linkedin.com/in/md-arafat-hossain-111403275)
+- GitHub: <a ="https://github.com/HossainAraf">HossainAraf </a>
+- LinkedIn: <a ="https://linkedin.com/in/md-arafat-hossain-111403275"> Md. Arafat Hossain </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
