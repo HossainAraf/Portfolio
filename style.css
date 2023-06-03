@@ -47,97 +47,16 @@
 }
 
 /* Main */
-.shapes-top {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding-bottom: 10%;
-}
-
-.shapes-top .img {
-  transform: rotate(350deg);
-}
-
-.img-1 {
-  flex: 0 0;
-  position: absolute;
-  left: 0;
-  width: 6%;
-}
-
-.img-2 {
-  flex: 0 0 auto;
-  position: absolute;
-  left: 4%;
-  top: 11%;
-  width: 7%;
-}
-
-.img-3 {
-  width: 7%;
-  position: absolute;
-  left: 49%;
-}
-
-.img-4 {
-  width: 10%;
-  position: absolute;
-  right: 6%;
-  top: -15%;
-}
-
-.img-5 {
-  width: 7%;
-  position: absolute;
-  right: 2%;
-}
-
-.shapes-bottom {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding-top: 18%;
-  align-items: baseline;
-}
-
-.img-6 {
-  width: 7%;
-  position: absolute;
-  left: 20%;
-  top: 85%;
-}
-
-.img-7 {
-  width: 7%;
-  position: absolute;
-  left: 19%;
-}
-
-.img-8 {
-  width: 7%;
-  position: absolute;
-  right: 20%;
-}
-
-.img-9 {
-  width: 7%;
-  position: absolute;
-  right: 20%;
-  bottom: -60%;
-}
-
-.img-10 {
-  width: 17%;
-  position: absolute;
-  right: 5%;
-  top: 0%;
-}
-
 #intro {
+  background-image: url("img/Rectangle\ 6.png"), url("img/Ellipse\ 11.png"), url("img/Rectangle\ 7.png"), url("img/Rectangle\ 4.png"), url("img/Ellipse\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: left top, left 4% top 30% , center top, right 6% top,  right 4% top 27%;
+}
+#intro h1 {
   color: #091e42;
   font-weight: bold;
 }
-
 .my-description {
   position: relative;
 }
@@ -152,12 +71,18 @@
   display: flex;
   list-style-type: none;
   align-items: baseline;
+  padding-bottom: 55%;
 }
 
 .social-media-icon li {
   flex: 1;
 }
-
+#socail-media {
+  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 11.png"), url("img/Ellipse\ 4.png"), url("img/Rectangle\ 4.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 6.png"); 
+  background-repeat: no-repeat;
+  background-size: 6%;
+  background-position: left 5% bottom 66%, left 19% bottom 52% , center bottom 51%, center bottom 57%,  right 13% bottom 58%, right 15% bottom 54% ;
+}
 @media (min-width: 375px) {
   .menu:hover,
   .toggle-button:hover + .menu {
@@ -197,6 +122,7 @@
     display: block;
     width: 25px;
     height: 3px;
+    
     background-color: #333;
     margin-bottom: 5px;
   }
