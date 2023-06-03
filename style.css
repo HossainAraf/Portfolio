@@ -101,7 +101,6 @@
 #work {
   display: grid;
   grid-template-columns: 1fr;
-  /* width: 80%; */
 }
 
 .work-description img {
@@ -117,22 +116,16 @@
   font-weight: 100;
 }
 
-/* 
-.specification p {
-
-} */
-
 .language-btn {
   border-radius: 10%;
   background-color: #afb4df;
-  color:#18438f
-
+  color: #18438f;
 }
 
 .see-project-btn {
   width: 30%;
   border-radius: 10%;
-  color:#2961c2;
+  color: #2961c2;
   background-color: #afb4df;
 }
 
@@ -144,7 +137,7 @@
 }
 
 .left-col-about-myself {
-  flex-basis: 40%
+  flex-basis: 40%;
 }
 
 #about-myself .left-col-about-myself h2 {
@@ -152,36 +145,27 @@
   color: #810e0e;
 }
 
-/* 
-#socail-media-2 {
-
-}
-*/
-
 .resume-btn {
   border-color: #810e0e;
   border-radius: 8%;
 }
+
 .resume-btn:hover {
   color: #7f8cff;
   border-color: #c2c1bf;
 }
 
-/* .technical-skill ul {
-
-} */
-
-.technical-skill ul li{
+.technical-skill ul li {
   list-style-type: none;
-} 
+}
 
 #languages {
   display: flex;
   flex-basis: 60%;
   margin-top: 20px;
   flex-wrap: wrap;
-  align-content:flex-start;
-  align-items:flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
   align-self: flex-start;
 }
 
@@ -221,7 +205,7 @@
   display: block;
   width: 50%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
   border: none;
   border-radius: 10%;
@@ -253,7 +237,6 @@
     padding-right: 5%;
   }
 }
-
 
 /* Media query for desktop screens */
 @media (min-width: 768px) {
