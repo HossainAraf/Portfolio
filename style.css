@@ -8,6 +8,16 @@
   line-height: 24px;
 }
 
+.flex-collumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 /* Header with Logo & Navbar */
 .header {
   display: flex;
@@ -73,7 +83,7 @@
   display: flex;
   list-style-type: none;
   align-items: baseline;
-  padding-bottom: 55%;
+  padding-bottom: 5%;
 }
 
 .social-media-icon li {
@@ -84,7 +94,126 @@
   background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 11.png"), url("img/Ellipse\ 4.png"), url("img/Rectangle\ 4.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 6.png");
   background-repeat: no-repeat;
   background-size: 6%;
-  background-position: left 5% bottom 66%, left 19% bottom 52%, center bottom 51%, center bottom 57%, right 13% bottom 58%, right 15% bottom 54%;
+  background-position: left 5% bottom, left 19% bottom, center bottom, center bottom, right 13% bottom, right 15% bottom;
+}
+
+/* Work */
+#work {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.work-description img {
+  width: 85%;
+  border-radius: 10%;
+}
+
+.specification h2 {
+  font-weight: 900;
+}
+
+.specification h4 {
+  font-weight: 100;
+}
+
+.language-btn {
+  border-radius: 10%;
+  background-color: #afb4df;
+  color: #18438f;
+}
+
+.see-project-btn {
+  width: 30%;
+  border-radius: 10%;
+  color: #2961c2;
+  background-color: #afb4df;
+}
+
+/* About */
+#about-myself {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.left-col-about-myself {
+  flex-basis: 40%;
+}
+
+#about-myself .left-col-about-myself h2 {
+  font-weight: 600;
+  color: #810e0e;
+}
+
+.resume-btn {
+  border-color: #810e0e;
+  border-radius: 8%;
+}
+
+.resume-btn:hover {
+  color: #7f8cff;
+  border-color: #c2c1bf;
+}
+
+.technical-skill ul li {
+  list-style-type: none;
+}
+
+#languages {
+  display: flex;
+  flex-basis: 60%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+#languages ul li img {
+  width: 10px;
+}
+
+/* Form */
+#form {
+  background-color: #6070ff;
+  width: 100%;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #45a049;
 }
 
 @media (min-width: 375px) {
