@@ -74,7 +74,7 @@ Run the below command:
 
 ```sh
 cd <your disered folder name >
-git clone 
+git clone https://github.com/HossainAraf/Portfolio
 ```
 ### Install
 
@@ -97,8 +97,8 @@ Open index.html file either directly or using live server
 
 👤 Md Arafat Hossain
 
-- GitHub: HossainAraf (https://github.com/HossainAraf)
-- LinkedIn: Md. Arafat Hossain (https://linkedin.com/in/md-arafat-hossain-111403275)
+- GitHub: <a href="https://github.com/HossainAraf">HossainAraf </a>
+- LinkedIn: <a href="https://linkedin.com/in/md-arafat-hossain-111403275"> Md. Arafat Hossain </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
