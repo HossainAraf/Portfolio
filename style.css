@@ -1,0 +1,119 @@
+* {
+  margin: 1%;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1em;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.toggle-button {
+  color: #810e0e;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.menu {
+  display: none;
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+/* Main */
+#intro {
+  background-image: url("img/Rectangle\ 6.png"), url("img/Ellipse\ 11.png"), url("img/Rectangle\ 7.png"), url("img/Rectangle\ 4.png"), url("img/Ellipse\ 3.png");
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: left top, left 4% top 7%, center top, right 6% top, right 4% top 4%;
+}
+
+#intro h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #172b4d;
+}
+
+.my-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #344563;
+}
+
+#social-media-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f8cff;
+  text-decoration: none;
+  width: 50%;
+}
+
+.social-media-icon {
+  width: 35%;
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+  padding-bottom: 55%;
+}
+
+.social-media-icon li {
+  padding-right: 10%;
+}
+
+#socail-media {
+  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
+  background-repeat: no-repeat;
+  background-size: 6%;
+  background-position: right 9% bottom 98%, right 10% bottom 94%, left 12% bottom 54%, left 47% bottom 50%, left 53% bottom 52%, right 15% bottom 67%;
+}
+
+/* Toogle menu */
+.menu:hover,
+.toggle-button:hover + .menu {
+  display: flex;
+}
+
+.toggle-button:hover + .menu {
+  flex-wrap: wrap;
+  margin-right: 5%;
+}
+
+.toggle-button:hover .menu-icon {
+  transform: rotate(45deg);
+}
+
+.menu:hover li,
+.toggle-button:hover + .menu li {
+  flex-basis: calc(99% / 3);
+  padding-right: 5%;
+}
