@@ -12,17 +12,6 @@
   display: flex;
 }
 
-#status-bar {
-  display: flex;
-  justify-content: space-between;
-}
-
-#bars {
-  flex-basis: 35%;
-  justify-content: space-evenly;
-  height: 15px;
-}
-
 .header {
   background-color: #fff;
   padding: 1em;
