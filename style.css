@@ -7,8 +7,9 @@
   font-size: 16px;
   line-height: 24px;
 }
+
 .flex {
-  display: flex;;
+  display: flex;
 }
 
 #status-bar {
@@ -23,7 +24,7 @@
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 1em;
 }
 
@@ -69,15 +70,14 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.my-description {
+.my-description p {
   font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: #344563;
-
+  font-size: 16px;
+  line-height: 150%;
+  color: #344563;
 }
 
 #social-media-connect {
@@ -110,22 +110,21 @@ color: #344563;
 
 /* Toogle menu */
 .menu:hover,
-  .toggle-button:hover + .menu {
-    display: flex;
-  }
+.toggle-button:hover + .menu {
+  display: flex;
+}
 
-  .toggle-button:hover + .menu {
-    flex-wrap: wrap;
-    margin-right: 5%;
-  }
+.toggle-button:hover + .menu {
+  flex-wrap: wrap;
+  margin-right: 5%;
+}
 
-  .toggle-button:hover .menu-icon {
-    transform: rotate(45deg);
-  }
+.toggle-button:hover .menu-icon {
+  transform: rotate(45deg);
+}
 
-  .menu:hover li,
-  .toggle-button:hover + .menu li {
-    flex-basis: calc(99% / 3);
-    padding-right: 5%;
-  }
-
+.menu:hover li,
+.toggle-button:hover + .menu li {
+  flex-basis: calc(99% / 3);
+  padding-right: 5%;
+}
