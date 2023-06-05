@@ -7,13 +7,23 @@
   font-size: 16px;
   line-height: 24px;
 }
+.flex {
+  display: flex;;
+}
 
-/* Header with Logo & Navbar */
-.header {
+#status-bar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #f6fafc;
+}
+
+#bars {
+  flex-basis: 35%;
+  justify-content: space-evenly;
+  height: 15px;
+}
+
+.header {
+  background-color: #ffffff;
   padding: 1em;
 }
 
@@ -51,21 +61,32 @@
   background-image: url("img/Rectangle\ 6.png"), url("img/Ellipse\ 11.png"), url("img/Rectangle\ 7.png"), url("img/Rectangle\ 4.png"), url("img/Ellipse\ 3.png");
   background-repeat: no-repeat;
   background-size: 5%;
-  background-position: left top, left 4% top 30%, center top, right 6% top, right 4% top 27%;
+  background-position: left top, left 4% top 7%, center top, right 6% top, right 4% top 4%;
 }
 
 #intro h1 {
-  color: #091e42;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #172B4D;
 }
 
 .my-description {
-  position: relative;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #344563;
+
 }
 
 #social-media-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
   color: #7f8cff;
   text-decoration: none;
+  width: 50%;
 }
 
 .social-media-icon {
@@ -77,18 +98,18 @@
 }
 
 .social-media-icon li {
-  flex: 1;
+  padding-right: 10%;
 }
 
 #socail-media {
-  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 11.png"), url("img/Ellipse\ 4.png"), url("img/Rectangle\ 4.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 6.png");
+  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
   background-repeat: no-repeat;
   background-size: 6%;
-  background-position: left 5% bottom 66%, left 19% bottom 52%, center bottom 51%, center bottom 57%, right 13% bottom 58%, right 15% bottom 54%;
+  background-position: right 9% bottom 98%, right 10% bottom 94%, left 12% bottom 54%, left 47% bottom 50%, left 53% bottom 52%, right 15% bottom 67%;
 }
 
-@media (min-width: 375px) {
-  .menu:hover,
+/* Toogle menu */
+.menu:hover,
   .toggle-button:hover + .menu {
     display: flex;
   }
@@ -107,5 +128,4 @@
     flex-basis: calc(99% / 3);
     padding-right: 5%;
   }
-}
 
