@@ -132,6 +132,10 @@
   flex-grow: 1;
 }
 
+.work-description ul {
+  list-style-type: none;
+}
+
 .work-description .specification ul {
   flex-grow: 2;
 }
@@ -161,16 +165,12 @@
   color: #344563;
 }
 
-.work-description ul {
-  list-style-type: none;
-}
-
 .language-tag {
   padding: 4px 12px;
   width: 57px;
   height: 24px;
-  background: #EBEBFF;
-  border-radius: 8px;  
+  background: #ebebff;
+  border-radius: 8px;
   justify-content: center;
 }
 
@@ -180,7 +180,7 @@
   line-height: 133%;
   letter-spacing: 0.03em;
   color: #6070ff;
-  } 
+}
 
 .see-project-btn {
   margin-top: 5%;
@@ -201,16 +201,18 @@
 
 .see-project-btn:hover {
   background-color: #24245c;
-  color:#fff;
+  color: #fff;
 }
 
 .see-project-btn:active {
   background-color: #15151a;
-  color:#fff;
+  color: #fff;
 }
-.see-project-btn:active, .see-project-btn:focus {
+
+.see-project-btn:active,
+.see-project-btn:focus {
   background-color: #0505b3;
-  color:#fff;
+  color: #fff;
 }
 
 /* Toogle menu */
@@ -262,6 +264,14 @@
   color: #253858;
 }
 
+.frame-skill p,
+i {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #000;
+}
+
 #about-myslf p {
   font-weight: 400;
   font-size: 16px;
@@ -290,7 +300,8 @@
   background-color: #6070ff;
 }
 
-#resume-btn:active, #resume-btn:focus {
+#resume-btn:active,
+#resume-btn:focus {
   background-color: #0a0b11;
   color: #fff;
 }
@@ -340,10 +351,6 @@
 
 .frame-skill {
   justify-content: space-between;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
   display: flex;
   align-items: center;
-  color: #000;
 }
