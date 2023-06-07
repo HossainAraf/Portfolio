@@ -135,6 +135,10 @@
   flex-grow: 2;
 }
 
+.technical-skill ul li {
+  list-style-type: none;
+}
+
 .menu:hover li {
   flex-basis: calc(99% / 3);
   padding-right: 5%;
@@ -203,4 +207,109 @@
 .toggle-button:hover + .menu li {
   flex-basis: calc(99% / 3);
   padding-right: 5%;
+}
+
+/* About */
+#about-myself {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.left-col-about-myself {
+  flex-basis: 40%;
+}
+
+#about-myself .left-col-about-myself h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #172b4d;
+}
+
+.lang-p p {
+  font-size: 24px;
+}
+
+.frame-1 p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133%;
+  color: #253858;
+}
+
+#about-myslf p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #344563;
+}
+
+#resume-btn {
+  padding: 12px;
+  gap: 10px;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.resume-btn:hover {
+  color: #7f8cff;
+  border-color: #c2c1bf;
+}
+
+#languages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+
+#languages p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+}
+
+#languages ul li img {
+  width: 10px;
+}
+
+#languages ul li {
+  width: 303px;
+  height: 66.72px;
+  background: #24245c;
+  border-radius: 8px;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.frame-1 {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.lang-p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame-skill {
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
