@@ -10,6 +10,7 @@
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 .header {
@@ -69,7 +70,7 @@
   color: #344563;
 }
 
-#social-media-connect {
+.social-media-connect {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -90,7 +91,7 @@
   padding-right: 10%;
 }
 
-#socail-media {
+.socail-media {
   background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
   background-repeat: no-repeat;
   background-size: 6%;
@@ -116,141 +117,4 @@
 .toggle-button:hover + .menu li {
   flex-basis: calc(99% / 3);
   padding-right: 5%;
-}
-
-/* Work */
-#work {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-/* .work-first {
-
-} */
-
-.work-description img {
-  width: 100%;
-  border-radius: 4%;
-}
-
-.specification h2 {
-  font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 138%;
-color: #172b4d;
-  text-align: left;
-}
-
-.specification h4 {
-  color: #344563;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.language-btn {
-  border-radius: 10%;
-  background-color: #afb4df;
-  color: #18438f;
-}
-
-.see-project-btn {
-  width: 30%;
-  border-radius: 10%;
-  color: #2961c2;
-  background-color: #afb4df;
-}
-
-/* About */
-#about-myself {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2%;
-}
-
-.left-col-about-myself {
-  flex-basis: 40%;
-}
-
-#about-myself .left-col-about-myself h2 {
-  font-weight: 600;
-  color: #810e0e;
-}
-
-.resume-btn {
-  border-color: #810e0e;
-  border-radius: 8%;
-}
-
-.resume-btn:hover {
-  color: #7f8cff;
-  border-color: #c2c1bf;
-}
-
-.technical-skill ul li {
-  list-style-type: none;
-}
-
-#languages {
-  display: flex;
-
-  /* flex-basis: 60%; */
-  margin-top: 20px;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  align-items: flex-start;
-  align-self: flex-start;
-}
-
-#languages ul li img {
-  width: 10px;
-}
-
-#languages ul li {
-  background-image: #f7f7f9;
-}
-
-/* Form */
-#form {
-  background-color: #6070ff;
-  width: 100%;
-}
-
-.form-container {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.form-input {
-  width: 50%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.form-button {
-  display: block;
-  width: 50%;
-  padding: 10px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 10%;
-  cursor: pointer;
-}
-
-.form-button:hover {
-  background-color: #45a049;
 }
