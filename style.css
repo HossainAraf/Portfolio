@@ -131,10 +131,6 @@
   line-height: 16px;
   flex-grow: 1;
 }
-/* 
-.work-description ul {
-  list-style-type: none;
-} */
 
 .work-description .specification ul {
   flex-grow: 2;
