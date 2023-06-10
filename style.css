@@ -49,10 +49,11 @@
 
 /* Main */
 #intro {
-  background-image: url("img/Rectangle\ 6.png"), url("img/Ellipse\ 11.png"), url("img/Rectangle\ 7.png"), url("img/Rectangle\ 4.png"), url("img/Ellipse\ 3.png");
+  background-image: url("img/header-shapes.png");
   background-repeat: no-repeat;
-  background-size: 5%;
-  background-position: left top, left 4% top 7%, center top, right 6% top, right 4% top 4%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  background-position: center top 0%;
 }
 
 #intro h1 {
@@ -91,12 +92,6 @@
   padding-right: 10%;
 }
 
-.socail-media {
-  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
-  background-repeat: no-repeat;
-  background-size: 6%;
-  background-position: right 9% bottom 98%, right 10% bottom 94%, left 12% bottom 54%, left 47% bottom 50%, left 53% bottom 52%, right 15% bottom 67%;
-}
 
 /* Work */
 #work {
