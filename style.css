@@ -91,13 +91,6 @@
   padding-right: 10%;
 }
 
-/* #socail-media {
-  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
-  background-repeat: no-repeat;
-  background-size: 6%;
-  background-position: right 9% bottom 98%, right 10% bottom 94%, left 12% bottom 54%, left 47% bottom 50%, left 53% bottom 52%, right 15% bottom 67%;
-} */
-
 /* Toogle menu */
 .menu:hover,
 .toggle-button:hover + .menu {
