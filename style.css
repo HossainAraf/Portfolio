@@ -20,6 +20,7 @@
 
 .logo {
   margin-right: 15px;
+  padding-top: 1%;
 }
 
 .logo img {
@@ -28,8 +29,10 @@
 
 .navbar {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
+  width: 100%;
+  height: 72px;
 }
 
 .toggle-button {
@@ -43,16 +46,22 @@
   list-style-type: none;
 }
 
-.menu li a {
+.navbar .menu li a {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133%;
+  color: #344563;
 }
 
 /* Main */
 #intro {
-  background-image: url("img/Rectangle\ 6.png"), url("img/Ellipse\ 11.png"), url("img/Rectangle\ 7.png"), url("img/Rectangle\ 4.png"), url("img/Ellipse\ 3.png");
+  background-image: url("img/header-shapes.png");
   background-repeat: no-repeat;
-  background-size: 5%;
-  background-position: left top, left 4% top 7%, center top, right 6% top, right 4% top 4%;
+  background-size: cover;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  background-position: center top 0%;
 }
 
 #intro h1 {
@@ -91,13 +100,6 @@
   padding-right: 10%;
 }
 
-.socail-media {
-  background-image: url("img/Ellipse\ 12.png"), url("img/Ellipse\ 13.png"), url("img/Ellipse\ 15.png"), url("img/Rectangle\ 5.png"), url("img/Ellipse\ 4.png"), url("img/Ellipse\ 6.png");
-  background-repeat: no-repeat;
-  background-size: 6%;
-  background-position: right 9% bottom 98%, right 10% bottom 94%, left 12% bottom 54%, left 47% bottom 50%, left 53% bottom 52%, right 15% bottom 67%;
-}
-
 /* Work */
 #work {
   display: grid;
@@ -112,6 +114,15 @@
 .work-description img {
   width: 100%;
   border-radius: 4%;
+}
+
+.form-label h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+  padding-top: 30%;
 }
 
 .work-description .specification h2 {
@@ -267,6 +278,30 @@ i {
   color: #000;
 }
 
+.form-label p {
+  left: 24px;
+  top: 4802px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form-button p {
+  width: 110px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 141%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
 #about-myslf p {
   font-weight: 400;
   font-size: 16px;
@@ -350,15 +385,14 @@ i {
   align-items: center;
 }
 
-
-
 /* Form */
 #form {
   width: auto;
   height: 779px;
-  background-image: url("img/form-shapes.png"), url("img/Shape.png"),      url("img/Contact-me.png");
+  background-image: url("img/form-shapes.png"), url("img/Shape.png"), url("img/Contact-me.png");
   background-position: right 0 top 48%, center bottom 5px, center top 0;
   background-repeat: no-repeat;
+}
 
 .form-container {
   max-width: 400px;
@@ -377,34 +411,14 @@ i {
   margin-bottom: 5px;
 }
 
-.form-label h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
-  text-align: center;
-  color: #fff;  
-  padding-top: 30%;
-}
-
-.form-label p {
-  left: 24px;
-  top: 4802px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  text-align: center;
-  color: #ebebff;
-}
-
 .form-input {
   width: 100%;
   height: 2.5rem;
   font-weight: 400;
   font-size: 17px;
   line-height: 118%;
-  border: 1px solid #CFD8DC;
-border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }
 
 .form-input ::placeholder {
@@ -417,15 +431,15 @@ border-radius: 8px;
   height: 18px;
   left: 16px;
   right: 38px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
 }
 
 #message {
-background: #fff;
-border: 1px solid #cfd8dc;
-border-radius: 8px;
-height: 10rem;
-width: 100%;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 10rem;
+  width: 100%;
 }
 
 #message ::placeholder {
@@ -447,25 +461,47 @@ width: 100%;
   width: 142px;
   height: 48px;
   left: 24px;
-  top: 5317px;  
+  top: 5317px;
   background-color: #fff;
   border: #fff;
   border-radius: 8px;
 }
 
-.form-button p {
-  width: 110px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 141%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
 .form-button:hover {
   background-color: #45a049;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 100px;
+  height: 40px;flex: auto;
+  left: 143px;
+  top: calc(50% - 40px/2);
+}
+  .toggle-button {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 258px;
+    height: 40px;
+    left: 1039px;
+    top: 16px;
+  }
+
+  #intro {
+    background-image: url("img/header-shapes.png");
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background-position: center top 0%;
+    /* background-size: 100%; */
+  }
 }
