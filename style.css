@@ -1,5 +1,7 @@
 * {
-  margin: 1%;
+  margin-top: 0;
+  margin-right: 1%;
+  margin-left: 1%;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -15,7 +17,8 @@
 
 .header {
   background-color: #fff;
-  padding: 1em;
+
+  /* padding: 1em; */
 }
 
 .logo {
@@ -60,7 +63,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30%;
-  padding-bottom: 30%;
   background-position: center top 0%;
 }
 
@@ -473,15 +475,17 @@ i {
 
 @media only screen and (min-width: 768px) {
   .logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 100px;
-  height: 40px;flex: auto;
-  left: 143px;
-  top: calc(50% - 40px/2);
-}
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 100px;
+    height: 40px;
+    flex: auto;
+    left: 143px;
+    top: calc(50% - 40px / 2);
+  }
+
   .toggle-button {
     display: none;
   }
@@ -497,11 +501,22 @@ i {
   }
 
   #intro {
-    background-image: url("img/header-shapes.png");
+    background-image: url("img/header-shapes-desktop.png");
     background-repeat: no-repeat;
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-top: 11%;
+
+    /* padding-bottom: 34%; */
     background-position: center top 0%;
-    /* background-size: 100%; */
+    background-size: 99%;
   }
+
+  .my-description p {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  /*
+    .social-media-connect {
+
+    } */
 }
