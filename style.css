@@ -360,7 +360,7 @@ i {
   background-image: url("img/form-shapes.png"), url("img/Shape.png"),      url("img/Contact-me.png");
   background-position: right 0 top 48%, center bottom 5px, center top 0;
   background-repeat: no-repeat;
-
+}
 .form-container {
   max-width: 400px;
   margin: 0 auto;
@@ -468,6 +468,16 @@ width: 100%;
 }
 
 .form-button:hover {
-  background-color: #45a049;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
+.form-button:active {
+  background-color: #2230d2;
+}
+
+.form-button:active,
+.form-button:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
