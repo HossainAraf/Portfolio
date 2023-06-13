@@ -88,6 +88,7 @@
   color: #7f8cff;
   text-decoration: none;
   width: 50%;
+  padding-bottom: 2%;
 }
 
 .social-media-icon {
@@ -113,7 +114,11 @@
   margin-bottom: 20%;
 }
 
-.work-description img {
+.work-first .work-img {
+  flex-basis: 50%;
+}
+
+.work-first .work-img img {
   width: 100%;
   border-radius: 4%;
 }
@@ -125,6 +130,10 @@
   text-align: center;
   color: #fff;
   padding-top: 30%;
+}
+
+.work-description {
+  flex-basis: 50%;
 }
 
 .work-description .specification h2 {
@@ -158,6 +167,11 @@
   padding-right: 5%;
 }
 
+.work-description {
+  display: flex;
+  flex-direction: column;
+}
+
 .work-description .specification ul li {
   font-style: normal;
   font-weight: 600;
@@ -189,6 +203,7 @@
   line-height: 133%;
   letter-spacing: 0.03em;
   color: #6070ff;
+  margin-top: 20%;
 }
 
 .see-project-btn {
@@ -519,4 +534,9 @@ i {
     .social-media-connect {
 
     } */
+
+  .work-first {
+    display: flex;
+    align-items: center;
+  }
 }
