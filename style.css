@@ -181,14 +181,13 @@
 }
 
 .form-label p {
-  left: 24px;
-  top: 4802px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   text-align: center;
   color: #ebebff;
+  padding: 1% 1%;
 }
 
 .form-button p {
@@ -391,6 +390,7 @@ i {
   background-image: url("img/form-shapes.png"), url("img/Shape.png"), url("img/Contact-me.png");
   background-position: right 0 top 48%, center bottom 5px, center top 0;
   background-repeat: no-repeat;
+  /* padding-left: 1.8%; */
 }
 
 .form-container {
@@ -401,13 +401,16 @@ i {
 .form-group {
   margin-bottom: 20px;
   padding-left: 6%;
-  padding-right: 10%;
+  padding-right: 12%;
 }
 
 .form-label {
-  display: block;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5px;
+  padding-left: 4%;
 }
 
 .form-input {
@@ -418,6 +421,7 @@ i {
   line-height: 118%;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  padding-left: 5%;
 }
 
 .form-input ::placeholder {
