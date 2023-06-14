@@ -392,7 +392,6 @@ i {
 .form-button {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 12px 16px;
   width: 142px;
   height: 48px;
