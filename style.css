@@ -236,15 +236,18 @@
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   margin-bottom: 5%;
+  color: #fff;
 }
 
 .see-project-btn:active {
   background-color: #2230d2;
+  color: #fff;
 }
 
 .see-project-btn:active,
 .see-project-btn:focus {
   background-color: #2230d2;
+  color: #fff;
 }
 
 /* Toogle menu */
@@ -337,6 +340,35 @@ i {
   color: #6070ff;
 }
 
+.form-button {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 16px;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  top: 5317px;
+  background-color: #fff;
+  border: #fff;
+  border-radius: 8px;
+}
+
+.form-button:hover {
+  background-color: #6070ff;
+}
+
+.form-button:hover p {
+  color: #fff;
+}
+
+.form-button:active {
+  background-color: #2230d2;
+}
+
+.form-button:active p {
+  color: #fff;
+}
+
 #about-myslf p {
   font-weight: 400;
   font-size: 16px;
@@ -359,10 +391,12 @@ i {
 #resume-btn:hover {
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
 }
 
 #resume-btn:active {
   background-color: #2230d2;
+  color: #fff;
 }
 
 #resume-btn:active,
@@ -420,7 +454,7 @@ i {
   background-image: url("img/form-shapes.png"), url("img/Shape.png"), url("img/Contact-me.png");
   background-position: right 0 top 48%, center bottom 5px, center top 0;
   background-repeat: no-repeat;
-  background-size: 37%, 15%, 100%;
+  background-size: 37%, 15%, 130%;
 }
 
 .form-container {
@@ -431,13 +465,14 @@ i {
 .form-group {
   margin-bottom: 20px;
   padding-left: 6%;
-  padding-right: 10%;
+  padding-right: 12%;
 }
 
 .form-label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  padding-left: 5%;
 }
 
 .form-input {
@@ -448,6 +483,7 @@ i {
   line-height: 118%;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  padding-left: 5%;
 }
 
 .form-input ::placeholder {
@@ -469,6 +505,7 @@ i {
   border-radius: 8px;
   height: 10rem;
   width: 100%;
+  padding-top: 3%;
 }
 
 #message ::placeholder {
@@ -480,24 +517,6 @@ i {
   font-size: 15px;
   line-height: 160%;
   color: #b3bac5;
-}
-
-.form-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 16px;
-  width: 142px;
-  height: 48px;
-  left: 24px;
-  top: 5317px;
-  background-color: #fff;
-  border: #fff;
-  border-radius: 8px;
-}
-
-.form-button:hover {
-  background-color: #45a049;
 }
 
 @media only screen and (min-width: 768px) {
