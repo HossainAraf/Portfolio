@@ -294,10 +294,9 @@ i {
   width: auto;
   height: 779px;
   background-image: url("img/form-shapes.png"), url("img/Shape.png"), url("img/Contact-me.png");
-  background-position: right 0 top 48%, center bottom 5px, center top 0;
+  background-position: right 0 top 48%, center bottom 5px, left 0 top 0;
   background-repeat: no-repeat;
-
-  /* padding-left: 1.8%; */
+  background-size: 72%, 25%, 120%;
 }
 
 .form-container {
