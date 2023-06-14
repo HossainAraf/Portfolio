@@ -28,8 +28,6 @@
 
 .header {
   background-color: #fff;
-
-  /* padding: 1em; */
 }
 
 .logo {
@@ -107,8 +105,6 @@
   display: flex;
   list-style-type: none;
   align-items: baseline;
-
-  /* padding-bottom: 32%; */
   margin-top: 3%;
 }
 
