@@ -419,6 +419,12 @@ i {
   padding-top: 5%;
 }
 
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 #languages p {
   font-weight: 500;
   font-size: 20px;
@@ -584,6 +590,17 @@ i {
 
   #languages {
     padding-top: 0;
+  }
+
+  .frame-1 {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1%;
+    justify-content: center;
   }
 
   #form {
