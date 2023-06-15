@@ -143,7 +143,7 @@
 
 .work-description {
   padding-left: 5%;
-  padding-bottom: 1.6%;
+  padding-bottom: 2%;
 }
 
 .language li {
@@ -576,10 +576,19 @@ i {
     background-size: cover;
   }
 
-  .my-description p {
+  #intro h1 {
+    padding-left: 10%;
+  }
+
+  #intro .my-description p {
     font-size: 20px;
     line-height: 140%;
+    padding-left: 10%;
     padding-right: 1%;
+  }
+
+  .socail-media {
+    padding-left: 10%;
   }
 
   .work-first {
