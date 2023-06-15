@@ -248,6 +248,16 @@
   font-size: 24px;
 }
 
+.languages {
+  background-color: #fff;
+}
+
+.frame-1 {
+  background-color: #f7f7f9;
+  margin-bottom: 5px;
+  border: solid 5px #fff;
+}
+
 .frame-1 p {
   font-weight: 500;
   font-size: 15px;
