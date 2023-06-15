@@ -1,18 +1,11 @@
 * {
   margin-top: 0;
-  margin-right: 1%;
-  margin-left: 1%;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-}
-
-.skill {
-  display: flex;
-  float: left;
 }
 
 .flex {
@@ -28,6 +21,8 @@
 
 .header {
   background-color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .logo {
@@ -72,7 +67,10 @@
   background-repeat: no-repeat;
   padding-top: 30%;
   padding-bottom: 30%;
-  background-position: center top 0%;
+  background-position: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-size: cover;
 }
 
 #intro h1 {
@@ -116,6 +114,9 @@
 #work {
   display: grid;
   grid-template-rows: 1fr;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
 }
 
 .work-first {
@@ -139,6 +140,16 @@
   text-align: center;
   color: #fff;
   padding-top: 30%;
+}
+
+.work-description {
+  padding-left: 5%;
+  padding-bottom: 2%;
+  flex-basis: 50%;
+}
+
+.language li {
+  margin-right: 3%;
 }
 
 .work-description .specification h2 {
@@ -235,6 +246,16 @@
 
 .lang-p p {
   font-size: 24px;
+}
+
+.languages {
+  background-color: #fff;
+}
+
+.frame-1 {
+  background-color: #f7f7f9;
+  margin-bottom: 5px;
+  border: solid 5px #fff;
 }
 
 .frame-1 p {
@@ -356,19 +377,6 @@ i {
   padding-left: 5%;
 }
 
-.form-input ::placeholder {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 118%;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  height: 18px;
-  left: 16px;
-  right: 38px;
-  top: calc(50% - 18px / 2);
-}
-
 #message {
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -376,17 +384,6 @@ i {
   height: 10rem;
   width: 100%;
   padding-top: 5%;
-}
-
-#message ::placeholder {
-  left: 16px;
-  right: 38px;
-  top: 15px;
-  bottom: 15px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 160%;
-  color: #b3bac5;
 }
 
 .form-button {
@@ -424,12 +421,13 @@ i {
   color: #fff;
 }
 
-/* About */
 #about-myself {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   margin-bottom: 48%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .left-col-about-myself {
@@ -521,4 +519,153 @@ i {
   justify-content: space-between;
   display: flex;
   align-items: center;
+}
+
+.form-input ::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 118%;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  height: 18px;
+  left: 16px;
+  right: 38px;
+  top: calc(50% - 18px / 2);
+}
+
+#message ::placeholder {
+  left: 16px;
+  right: 38px;
+  top: 15px;
+  bottom: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #b3bac5;
+}
+
+@media only screen and (min-width: 768px) {
+  /* * {
+    margin-left: 0;
+    margin-right: 0;
+  } */
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 100px;
+    height: 40px;
+    flex: auto;
+    left: 143px;
+    top: calc(50% - 40px / 2);
+  }
+
+  .toggle-button {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 258px;
+    height: 40px;
+    left: 1039px;
+    top: 16px;
+  }
+
+  #intro {
+    background-image: url("img/header-shapes-desktop.png");
+    background-repeat: no-repeat;
+    padding-top: 9%;
+    padding-left: 9%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #intro h1 {
+    padding-left: 10%;
+  }
+
+  #intro .my-description p {
+    font-size: 20px;
+    line-height: 140%;
+    padding-left: 10%;
+    padding-right: 1%;
+  }
+
+  .socail-media {
+    padding-left: 10%;
+  }
+
+  .work-first {
+    display: flex;
+    align-items: center;
+  }
+
+  #about-myself {
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 15%;
+  }
+
+  .technical-skill {
+    padding-left: 3%;
+  }
+
+  #languages {
+    padding-top: 0;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .frame-1 {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1%;
+    justify-content: center;
+  }
+
+  #form {
+    background-image: url("img/form-shapes-desktop.png"), url("img/form-desktop.png");
+    background-position: right 0 top 0, left 0 top 0;
+    background-size: 99%, 200%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .form-input {
+    /* width: 50%; */
+    height: 48px;
+    align-self: center;
+  }
+
+  .form-button {
+    align-self: center;
+  }
 }
