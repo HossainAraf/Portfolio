@@ -145,6 +145,7 @@
 .work-description {
   padding-left: 5%;
   padding-bottom: 2%;
+  flex-basis: 50%;
 }
 
 .language li {
@@ -572,7 +573,7 @@ i {
     padding-top: 9%;
     padding-left: 9%;
     padding-right: 15%;
-    padding-bottom: 9%;
+    padding-bottom: 5%;
     background-position: center;
     background-size: cover;
   }
