@@ -1,7 +1,5 @@
 * {
   margin-top: 0;
-  margin-right: 1%;
-  margin-left: 1%;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -23,6 +21,8 @@
 
 .header {
   background-color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .logo {
@@ -67,7 +67,10 @@
   background-repeat: no-repeat;
   padding-top: 30%;
   padding-bottom: 30%;
-  background-position: center top 0%;
+  background-position: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-size: cover;
 }
 
 #intro h1 {
@@ -111,6 +114,8 @@
 #work {
   display: grid;
   grid-template-rows: 1fr;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .work-first {
@@ -134,6 +139,15 @@
   text-align: center;
   color: #fff;
   padding-top: 30%;
+}
+
+.work-description {
+  padding-left: 5%;
+  padding-bottom: 1.6%;
+}
+
+.language li {
+  margin-right: 3%;
 }
 
 .work-description .specification h2 {
@@ -395,12 +409,13 @@ i {
   color: #fff;
 }
 
-/* About */
 #about-myself {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   margin-bottom: 48%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .left-col-about-myself {
@@ -519,6 +534,11 @@ i {
 }
 
 @media only screen and (min-width: 768px) {
+  /* * {
+    margin-left: 0;
+    margin-right: 0;
+  } */
+
   .logo {
     display: flex;
     flex-direction: row;
@@ -559,12 +579,8 @@ i {
   .my-description p {
     font-size: 20px;
     line-height: 140%;
+    padding-right: 1%;
   }
-
-  /*
-    .social-media-connect {
-
-    } */
 
   .work-first {
     display: flex;
@@ -575,6 +591,10 @@ i {
     flex-direction: row;
     margin-top: 2%;
     margin-bottom: 15%;
+  }
+
+  .technical-skill {
+    padding-left: 3%;
   }
 
   #languages {
