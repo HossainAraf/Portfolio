@@ -10,11 +10,6 @@
   line-height: 24px;
 }
 
-.skill {
-  display: flex;
-  float: left;
-}
-
 .flex {
   display: flex;
   align-items: center;
@@ -553,11 +548,12 @@ i {
   #intro {
     background-image: url("img/header-shapes-desktop.png");
     background-repeat: no-repeat;
-    padding-top: 11%;
-
-    /* padding-bottom: 34%; */
-    background-position: center top 0%;
-    background-size: 99%;
+    padding-top: 9%;
+    padding-left: 9%;
+    padding-right: 15%;
+    padding-bottom: 9%;
+    background-position: center;
+    background-size: cover;
   }
 
   .my-description p {
