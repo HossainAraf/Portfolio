@@ -92,7 +92,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #7f8cff;
+  color: #74d;
   text-decoration: none;
   width: 50%;
   padding-bottom: 2%;
@@ -192,7 +192,7 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 123%;
-  color: #7a869a;
+  color: #4d535e;
   padding-right: 10%;
 }
 
@@ -232,7 +232,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #83f;
 }
 
 .language-tag p {
@@ -240,7 +240,7 @@
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #394ada;
   margin-top: 20%;
 }
 
@@ -288,7 +288,7 @@ i {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .see-project-btn:hover {
