@@ -13,7 +13,7 @@ It is an assignment given by Microverse.  The following technologies will be imp
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [video description](##video description)
+    - [video description](#video-description)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
