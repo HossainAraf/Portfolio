@@ -42,11 +42,11 @@
   height: 72px;
 }
 
-/* .toggle-button {
-  color: #810e0e;
+.toggle-button {
+  color: #6070ff;
   font-size: 36px;
   font-weight: 300;
-} */
+}
 
 .menu {
   display: none;
@@ -58,6 +58,7 @@
 
 .menu li {
   margin-left: 5%;
+  padding-top: 15%;
 }
 
 .navbar .menu li a {
@@ -65,7 +66,7 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 133%;
-  color: #344563;
+  color: #fff;
   padding: 5%;
 }
 
@@ -345,6 +346,10 @@ i {
 .toggle-button:hover + .menu li {
   flex-basis: calc(99% / 3);
   padding-right: 5%;
+} */
+/* 
+.menu-icon {
+  color: #6070ff;
 } */
 
 /* Form */
