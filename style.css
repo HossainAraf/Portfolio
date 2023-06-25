@@ -551,6 +551,13 @@ i {
   color: #b3bac5;
 }
 
+/* Font awesome */
+.fa-solid,
+.fas {
+  font-weight: 900;
+  color: #6070ff;
+}
+
 @media only screen and (min-width: 768px) {
   /* * {
     margin-left: 0;
