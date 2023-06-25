@@ -558,6 +558,10 @@ i {
   color: #6070ff;
 }
 
+.fa-times {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   /* * {
     margin-left: 0;
