@@ -33,7 +33,8 @@ function show () {
   navbar.style.display = 'flex';
   navbar.style.flexDirection = 'column';
   // logo.style.display = 'flex';
-  // logo.style.justifyContent = 'flex-start'
+  logo.style.alignSelf = 'flex-start'
+  logo.style.paddingTop = '9%';
 }
 
 function hide () {
@@ -42,6 +43,7 @@ function hide () {
   toggleButton.style.display = 'flex';
   toggleButton.style.justifyContent = 'flex-end';
   navbar.style.flexDirection = 'row';
+  logo.style.paddingTop = '9%';
 }
 
 function menuItemClick () {
