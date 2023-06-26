@@ -604,6 +604,9 @@ i {
 
   .toggle-button {
     display: none;
+    /* position: absolute;
+    top: 1%;
+    right: 1%; */
   }
 
   /* .menu {

@@ -40,10 +40,13 @@ function hide () {
   mainMenu.style.display = 'none';
   xIcon.style.display = 'none';
   toggleButton.style.display = 'flex';
+  toggleButton.style.justifyContent = 'flex-end';
+  navbar.style.flexDirection = 'row';
 }
 
 function menuItemClick () {
   mainMenu.style.display = 'none';
   xIcon.style.display = 'none';
   toggleButton.style.display = 'flex';
+  navbar.style.flexDirection = 'row';
 }
