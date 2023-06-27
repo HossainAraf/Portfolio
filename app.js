@@ -3,7 +3,6 @@ const xIcon = document.querySelector('.x-icon')
 const mainMenu = document.querySelector('.menu')
 const menuItem = document.querySelectorAll('.menu-item')
 const navbar = document.querySelector('.navbar')
-// const body = document.querySelector('body')
 const logo = document.querySelector('.logo')
 
 toggleButton.addEventListener('click', show)
