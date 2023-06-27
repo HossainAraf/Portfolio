@@ -585,6 +585,7 @@ i {
 }
 
 @media only screen and (min-width: 768px) {
+
   /* * {
     margin-left: 0;
     margin-right: 0;
@@ -635,20 +636,7 @@ i {
 
   .toggle-button {
     display: none;
-    /* position: absolute;
-    top: 1%;
-    right: 1%; */
   }
-
-  /* .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 258px;
-    height: 40px;
-    left: 1039px;
-    top: 16px;
-  } */
 
   #intro {
     background-image: url("img/header-shapes-desktop.png");
