@@ -553,13 +553,6 @@ i {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
   .logo {
     display: flex;
     flex-direction: row;
@@ -569,7 +562,6 @@ i {
     flex: auto;
     left: 143px;
     top: calc(50% - 40px / 2);
-    margin-top: 2%;
   }
 
   .toggle-button {
