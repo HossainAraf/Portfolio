@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Portfolio: Md. Arafat Hossain</title>
 </head>
@@ -14,13 +14,14 @@
         <a href=""><img src="img/logo.svg" alt="logo"></a>  
       </div>
       <div class="toggle-button" type="toogle">
-        <span class="menu-icon"><img src="img/Menu.png" alt="menu"></span>
+        <i class="fa fa-bars menu-icon"></i>
       </div>
       <ul class="menu">
-        <li><a href="#" title="Go to title">About</a></li>
-        <li><a href="#" title="Go to services">Services</a></li>
-        <li><a href="#" title="Go to contact">Contact</a></li>
+        <li class="menu-item"><a href="#work" title="Go to title">Portfolio</a></li>
+        <li class="menu-item"><a href="#about-myself" title="Go to services">About</a></li>
+        <li class="menu-item"><a href="#form" title="Go to contact">Contact</a></li>
       </ul>
+      <div class="x-icon"><i class="fas fa-times"></i></div>
     </nav> 
   </header>
   <main>
@@ -108,7 +109,7 @@
               </div>
             </div>
             <div>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <p>A daily selection of privately personalized readS; no accounts or sign-ups required.</p>
             </div>
             <div class="language">
               <ul class="flex">
@@ -211,5 +212,7 @@
       </form>
     </section>
   </main>
+  <!-- Script -->
+  <script src="app.js"></script>
 </body>
 </html>
