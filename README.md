@@ -116,6 +116,11 @@ Open index.html file either directly or using live server
 - GitHub: <a href="https://github.com/BilalLiaquat7">Muhammad Bilal Liaquat</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/muhammad-bilal-liaquat-87863390/">Muhammad Bilal Liaquat</a>
 
+Jery Mey
+-GitHub:
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
