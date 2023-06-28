@@ -4,6 +4,7 @@ const mainMenu = document.querySelector('.menu');
 const menuItem = document.querySelectorAll('.menu-item');
 const navbar = document.querySelector('.navbar');
 const logo = document.querySelector('.logo');
+const popup = document.querySelector('#popup');
 
 function show() {
   mainMenu.style.display = 'flex';
