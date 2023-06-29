@@ -5,6 +5,7 @@ const menuItem = document.querySelectorAll('.menu-item');
 const navbar = document.querySelector('.navbar');
 const logo = document.querySelector('.logo');
 const popup = document.querySelector('#popup');
+const cardsContainer = document.querySelector('#work');
 
 function show() {
   mainMenu.style.display = 'flex';
@@ -34,6 +35,7 @@ function menuItemClick() {
   toggleButton.style.display = 'flex';
   navbar.style.flexDirection = 'row';
 }
+
 toggleButton.addEventListener('click', show);
 xIcon.addEventListener('click', hide);
 menuItem.forEach((item) => item.addEventListener('click', menuItemClick));
