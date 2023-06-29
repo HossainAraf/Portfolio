@@ -39,3 +39,18 @@ function menuItemClick() {
 toggleButton.addEventListener('click', show);
 xIcon.addEventListener('click', hide);
 menuItem.forEach((item) => item.addEventListener('click', menuItemClick));
+
+function popupWC() {
+  popup.style.display = 'none';
+}
+
+const projectList = [
+  {
+    id: 0,
+    title: 'TONIC',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    tags: ['CANOPY', 'Back End Dev', '2023'],
+    imgUrl: 'img/Portfolio-1.png',
+    live: '',
+    source: 'https://github',
+  },
