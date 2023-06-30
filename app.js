@@ -46,7 +46,7 @@ const projectList = [
   {
     id: 0,
     title: 'TONIC',
-    desc: 'A: Lorem Ipsum is simply dummy text of the printing and typesetting industry.    text of the printing and typesetting industry. Lorem Ipsum has been the industry and  make a type specimen book. It has survived not only five centuries.',
+    desc: 'Introducing EduQuest - an interactive educational platform showcased in an engaging project popup card. Immerse yourself in a world of knowledge as EduQuest offers engaging courses and collaborative learning experiences.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-1.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -56,7 +56,7 @@ const projectList = [
   {
     id: 1,
     title: 'TONIC',
-    desc: 'B  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
+    desc: 'Discover TravelMates - a user-friendly travel planning website. Get inspired by its captivating features showcased in a project popup card.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-2.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -66,7 +66,7 @@ const projectList = [
   {
     id: 2,
     title: 'TONIC',
-    desc: 'C Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
+    desc: 'Immerse in EduQuest - an interactive educational platform empowering learners. Explore its engaging courses and collaborative experiences through a project popup card.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-3.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -76,7 +76,7 @@ const projectList = [
   {
     id: 3,
     title: 'TONIC',
-    desc: 'D Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
+    desc: 'Introducing MarketPro - a cutting-edge e-commerce solution. Experience its seamless user interface and advanced features showcased in a dynamic project popup card.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio.png',
     tech: ['HTML', 'CSS', 'Javascript'],
