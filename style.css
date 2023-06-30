@@ -156,11 +156,17 @@
 
 .card-items {
   display: flex;
-  list-style-type: disc;
+
 }
 
 .card-items li {
   margin-right: 1%;
+  list-style-image: url(img/Counter.png);
+}
+
+.card-items li:first-child {
+  margin-right: 1%;
+  list-style-image: none;
 }
 
 .work-description {
