@@ -11,9 +11,7 @@ function show() {
   mainMenu.style.display = 'flex';
   mainMenu.style.color = '#fff';
   mainMenu.style.opacity = '.93';
-  toggleButton.style.display = 'none';
-  xIcon.style.display = 'flex';
-  xIcon.style.right = '0';
+  toggleButton.style.display = 'none'; xIcon.style.display = 'flex'; xIcon.style.right = '0';
   navbar.style.display = 'flex';
   navbar.style.flexDirection = 'column';
   logo.style.alignSelf = 'flex-start';
@@ -87,10 +85,10 @@ const projectList = [
   },
 ];
 
-let cardsHtmlGenerator = '';
+let cardsGenerator = '';
 
 projectList.forEach((project) => {
-  cardsHtmlGenerator += `
+  cardsGenerator += `
   <!-- card ${project.id} -->
     <div class="work-first">
       <div class="work-img">
@@ -114,7 +112,7 @@ projectList.forEach((project) => {
   `;
 }),
 
-cardsContainer.innerHTML = cardsHtmlGenerator;
+cardsContainer.innerHTML = cardsGenerator;
 
 function popupW(id) {
   const popupHtmlGenerator = `
@@ -136,20 +134,22 @@ function popupW(id) {
       <img src="${projectList[id].imgUrl}" alt="${projectList[id].title}" />
       </div>
     </div>
-    <div class="popup-desc">
-      <p>${projectList[id].desc}</p>
-    </div>
-    <ul class="technologies">${projectList[id].tech.map((tech) => `<li class="tech-li">${tech}</li>`).join(' ')}</ul>
-    <hr>
-    </div>
-    <div class="popup-action">
-     <div class="acton-inside">
-      <a href="${projectList[id].live}" target="_blank" class="popup-action-btn">See Live <img src="img/Icon-live.png" class="popup-action-btn-icon" alt="see live project icon" /></a>
-     </div>
-     <div class="acton-inside">
-      <a href="${projectList[id].source}" target="_blank" class="popup-action-btn">See Source <img src="img/Icon\ -GitHub.png" class="popup-action-btn-icon" alt="github" /></a>
-     </div>
-    </div>
+    <div class="popup-bottom">
+      <div class="popup-desc">
+        <p>${projectList[id].desc}</p>
+      </div>
+      <div class="pop-right">
+      <ul class="technologies">${projectList[id].tech.map((tech) => `<li class="tech-li">${tech}</li>`).join(' ')}</ul>
+      <hr>
+      <div class="popup-action">
+        <div class="acton-inside">
+          <a href="${projectList[id].live}" target="_blank" class="popup-action-btn">See Live <img src="img/Icon-live.png" class="popup-action-btn-icon" alt="see live project icon" /></a>
+        </div>
+        <div class="acton-inside">
+          <a href="${projectList[id].source}" target="_blank" class="popup-action-btn">See Source <img src="img/Icon-GitHub.png" class="popup-action-btn-icon" alt="github" /></a>
+        </div>
+      </div>
+      </div>
   </div>
 </div>`;
   popup.innerHTML = popupHtmlGenerator;
