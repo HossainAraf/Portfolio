@@ -126,7 +126,7 @@ function popupW(id) {
       
       </div>
     </div>
-    <ul class="card-list popup-tags">${projectList[id].tags.map((tag) => `<li class="card-li">${tag}</li>`).join(' ')}</ul>
+    <ul class="card-list">${projectList[id].tags.map((tag) => `<li class="card-li">${tag}</li>`).join(' ')}</ul>
   </div>
     <div class="img-container">
       <button class="btn popup-cancel" onclick="popupWC()">

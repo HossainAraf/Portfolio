@@ -160,7 +160,7 @@
 }
 
 .card-items li {
-  margin-right: 1%;
+  margin-right: 1%;card-list
   list-style-image: url(img/Counter.png);
 }
 
@@ -805,6 +805,8 @@ i {
   margin-left: 1%;
   color: #6070ff;
   width: 150px;
+  padding-bottom: 6%;
+  padding-left: 11.5%;
 }
 
 .popup-action-btn-icon {
@@ -812,14 +814,9 @@ i {
   padding-left: 2%;
 }
 
-/* .popup-action-btn-icon {
-  display: inline-block;
-} */
 @media (min-width: 768px) {
   .popup-inner {
     max-width: 920px;
-
-    /* height: fit-content; */
   }
 }
 
@@ -921,10 +918,11 @@ i {
   margin-left: 10%;
   color: #7a869a;
   font-weight: 600;
-  /* font-size: 13px; */
+  list-style-image: url("img/Counter.png");
 }
 
 .card-li:first-child {
+  list-style-image: none;
   list-style-type: none;
   margin-left: 1%;
   margin-right: 5%;
