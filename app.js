@@ -46,7 +46,7 @@ const projectList = [
   {
     id: 0,
     title: 'TONIC',
-    desc: 'A: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s, remaining essent.',
+    desc: 'A: Lorem Ipsum is simply dummy text of the printing and typesetting industry.    text of the printing and typesetting industry. Lorem Ipsum has been the industry and  make a type specimen book. It has survived not only five centuries.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-1.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -56,7 +56,7 @@ const projectList = [
   {
     id: 1,
     title: 'TONIC',
-    desc: 'B  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s, remaining essent.',
+    desc: 'B  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-2.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -66,7 +66,7 @@ const projectList = [
   {
     id: 2,
     title: 'TONIC',
-    desc: 'C Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s, remaining essent.',
+    desc: 'C Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio-3.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -76,7 +76,7 @@ const projectList = [
   {
     id: 3,
     title: 'TONIC',
-    desc: 'D Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s, remaining essent.',
+    desc: 'D Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be   a type specimen book. It has survived not only five centuries.',
     tags: ['CANOPY', 'Back End Dev', '2023'],
     imgUrl: 'img/Portfolio.png',
     tech: ['HTML', 'CSS', 'Javascript'],
@@ -110,7 +110,7 @@ projectList.forEach((project) => {
       </div>
   </div>
   `;
-}),
+});
 
 cardsContainer.innerHTML = cardsGenerator;
 
@@ -121,15 +121,14 @@ function popupW(id) {
     <div class="popup-primary-text">
     <div class="popup-title-container">
       <h3 class="popup-title">${projectList[id].title}</h3>
-      
+      <button class="popup-cancel" onclick="popupWC()">
+      <img src="img/Icon-cross.png" alt="icon cancel" class="popup-cancle-icon" />
+  </button>
       </div>
     </div>
     <ul class="card-list">${projectList[id].tags.map((tag) => `<li class="card-li">${tag}</li>`).join(' ')}</ul>
   </div>
     <div class="img-container">
-      <button class="btn popup-cancel" onclick="popupWC()">
-          <img src="img/Icon-cross.png" alt="icon cancel" class="popup-cancle-icon" />
-      </button>
       <div class="popup-img-box"> 
       <img src="${projectList[id].imgUrl}" alt="${projectList[id].title}" />
       </div>
@@ -140,7 +139,7 @@ function popupW(id) {
       </div>
       <div class="pop-right">
       <ul class="technologies">${projectList[id].tech.map((tech) => `<li class="tech-li">${tech}</li>`).join(' ')}</ul>
-      <hr>
+      <img src='img/Vector4.png'>
       <div class="popup-action">
         <div class="acton-inside">
           <a href="${projectList[id].live}" target="_blank" class="popup-action-btn">See Live <img src="img/Icon-live.png" class="popup-action-btn-icon" alt="see live project icon" /></a>
