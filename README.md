@@ -13,6 +13,7 @@ It is an assignment given by Microverse.  The following technologies will be imp
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [video description](#video-description)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -32,7 +33,7 @@ It is an assignment given by Microverse.  The following technologies will be imp
 # 📖 Portfolio: Mobile First <a name="about-project"></a>
 
 > 'Portfolio: Mobile First' is a personal portfolio project using html and css.
-
+# 📗 [Live Demo](https://hossainaraf.github.io/Portfolio-Mobile-First/)
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -48,6 +49,9 @@ It is an assignment given by Microverse.  The following technologies will be imp
   </ul>
 </details>
 
+##Video description 
+ <a href="https://www.loom.com/share/58bea5f6aaa940298b087ab83bd686dc?sid=f80f69b9-8f6e-4342-b829-de06e9de5ea9">Portfolio </a>
+ 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 1. Added index.html file
