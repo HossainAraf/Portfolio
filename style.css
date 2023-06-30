@@ -552,6 +552,15 @@ i {
   color: #fff;
 }
 
+.card-items {
+  display: flex;
+}
+
+.card-items li {
+  display: flex;
+  margin-right: 2%;
+}
+
 @media only screen and (min-width: 768px) {
   .logo {
     display: flex;
@@ -696,7 +705,12 @@ i {
 } */
 
 .card .card-image-container img {
-  width:100%;
+  width: 100%;
+} 
+
+.card-title {
+  color: #172b4d;
+  font-weight: 700;
 }
 
 #popup {
@@ -707,10 +721,13 @@ i {
   background-color: #c2c8d1;
   z-index: 10;
   height: 100%;
-  padding: 20px 16px;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   display: none;
   justify-content: center;
+}
+
+.popup-title-container {
+  height: 50%;
 }
 
 .popup-wrapper {
@@ -723,12 +740,11 @@ i {
 .popup-inner {
   background-color: #fff;
   display: flex;
-  gap: 12px;
   flex-direction: column;
-  align-items: flex-start;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 5%;
   height: 100%;
+  /* padding-left: 10%; */
 
   /* position: relative; */
   width: 100%;
@@ -749,9 +765,13 @@ i {
 
 .popup-img-box {
   background-color: #ebf0ee;
+  width: 100%;
 }
 
-.popup-img {
+/* .popup-img {
+  width: 90%;
+} */
+.popup-img-box img {
   width: 100%;
 }
 
@@ -806,7 +826,7 @@ i {
 .popup-primary-text {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  padding-left: 7%;
 }
 
 @media (min-width: 768px) {
@@ -829,8 +849,24 @@ i {
   color: #172b4d;
 }
 
-.popup-tags {
-  align-self: flex-start;
+.card-list {
+  display: flex;
+  /* align-self: flex-start; */
+  padding-left: 1%;
+}
+
+.card-li {
+  margin-left: 10%;
+  color: #7a869a;
+  font-weight: 600;
+  /* font-size: 13px; */
+}
+
+.card-li:first-child {
+  list-style-type: none;
+  margin-left: 1%;
+  margin-right: 5%;
+  color: #344563;
 }
 
 .popup-left-block {
