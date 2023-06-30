@@ -126,6 +126,11 @@
   margin-top: 10%;
 }
 
+.popup-img-box img {
+  width: 85%;
+  padding-left: 6%;
+}
+
 .work-first {
   margin-top: 18%;
   margin-bottom: 20%;
@@ -147,6 +152,15 @@
   text-align: center;
   color: #fff;
   padding-top: 30%;
+}
+
+.card-items {
+  display: flex;
+  list-style-type: disc;
+}
+
+.card-items li {
+  margin-right: 1%;
 }
 
 .work-description {
@@ -250,6 +264,11 @@
   font-size: 24px;
 }
 
+.card .card-image-container img {
+  width: 100%;
+}
+
+
 .languages {
   background-color: #fff;
 }
@@ -318,6 +337,24 @@ i {
 .see-project-btn:focus {
   background-color: #2230d2;
   color: #fff;
+}
+.tech-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.tech-items .tech-li {
+  background-color: #ebebff;
+  border-radius: 8%;
+  color: #6070ff;
+  padding: 4px 12px 4px 12px;
+  margin-left: 3%;
+}
+
+.tech-items .tech-li:first-child {
+  margin-left: 1%;
 }
 
 .menu-icon {
@@ -552,15 +589,6 @@ i {
   color: #fff;
 }
 
-.card-items {
-  display: flex;
-}
-
-.card-items li {
-  display: flex;
-  margin-right: 2%;
-}
-
 @media only screen and (min-width: 768px) {
   .logo {
     display: flex;
@@ -694,8 +722,10 @@ i {
     align-self: center;
   }
 }
+
 .card {
   width: 100%;
+
   /* display: flex;
   flex-direction: column; */
 }
@@ -703,10 +733,6 @@ i {
 /* .card .card-image-container {
   width:100%;
 } */
-
-.card .card-image-container img {
-  width: 100%;
-} 
 
 .card-title {
   color: #172b4d;
@@ -718,30 +744,29 @@ i {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #c2c8d1;
+  background-color: #fff;
   z-index: 10;
-  height: 100%;
-  /* overflow-y: auto; */
-  display: none;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .popup-title-container {
-  height: 50%;
+  padding-top: 5%;
 }
 
 .popup-wrapper {
-  /* height: fit-content; */
-  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-left: 2%;
 }
 
 .popup-inner {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 16px;
+  padding: 5px;
   border-radius: 5%;
   height: 100%;
   /* padding-left: 10%; */
@@ -750,6 +775,40 @@ i {
   width: 100%;
 }
 
+.popup-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15%;
+  padding-left: 2%;
+}
+
+.acton-inside {
+  display: flex;
+
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-action-btn {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 2% 10%;
+  margin-left: 1%;
+  color: #6070ff;
+  width: 150px;
+}
+
+.popup-action-btn-icon {
+  width: 1.5rem;
+  padding-left: 2%;
+}
+
+/* .popup-action-btn-icon {
+  display: inline-block;
+} */
 @media (min-width: 768px) {
   .popup-inner {
     max-width: 920px;
@@ -764,23 +823,21 @@ i {
 }
 
 .popup-img-box {
-  background-color: #ebf0ee;
-  width: 100%;
+  background-color: #fff;
 }
 
 /* .popup-img {
   width: 90%;
 } */
-.popup-img-box img {
-  width: 100%;
-}
 
 .popup-cancel {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: -38%;
+  right: 20px;
   background-color: transparent;
   cursor: pointer;
+  color: white;
+  border: none;
 }
 
 .popup-cancel:hover {
@@ -845,14 +902,13 @@ i {
 .popup-title {
   font-weight: 600;
   font-size: 32px;
-  line-height: 44px;
   color: #172b4d;
 }
 
 .card-list {
   display: flex;
   /* align-self: flex-start; */
-  padding-left: 1%;
+  padding-left: 6%;
 }
 
 .card-li {
@@ -869,26 +925,33 @@ i {
   color: #344563;
 }
 
-.popup-left-block {
+.popup-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-top: 2%;
+  padding: 1% 5%;
 }
 
-.popup-action-container {
+.technologies {
   display: flex;
-  flex-direction: row;
-  gap: 12px;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 4%;
 }
 
-.popup-action {
-  display: flex;
-  width: fit-content;
-  gap: 12px;
-  margin: 0;
+.technologies .tech-li {
+  background-color: #ebebff;
+  border-radius: 8%;
+  color: #6070ff;
+  padding: 4px 12px 4px 12px;
+  margin-left: 3%;
+}
+
+.technologies .tech-li:first-child {
+  margin-left: 1%;
 }
 
 @media (min-width: 768px) {
