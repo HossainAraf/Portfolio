@@ -116,10 +116,13 @@ Open index.html file either directly or using live server
 - GitHub: <a href="https://github.com/BilalLiaquat7">Muhammad Bilal Liaquat</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/muhammad-bilal-liaquat-87863390/">Muhammad Bilal Liaquat</a>
 
-Jery Mey
--GitHub:
+👤 Jery Mey
 
+- GitHub: <a href="https://github.com/jerymey">Jery Mey</a>
 
+👤 Hydaline Dev
+
+- GitHub: <a href="https://github.com/hydaline-code">Hydaline Dev</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
