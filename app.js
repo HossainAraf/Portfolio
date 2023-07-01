@@ -161,10 +161,6 @@ if (x === 1) {
 }
 
 // form validation
-
-
-
-
 const formSubmit = document.querySelector('#form');
 formSubmit.addEventListener('submit', (event) => {
   const emailInput = document.querySelector('#email');
@@ -179,5 +175,37 @@ formSubmit.addEventListener('submit', (event) => {
   }
 });
 
-let name = document.getElementById('name').value;
-let email = document.getElementById('email').value;
+// Preserve form data to local storage
+const yourName = document.getElementById('name');
+const yourEmail = document.getElementById('email');
+const yourMessage = document.getElementsByClassName('message');
+
+function saveData() {
+  // Create a data object
+  const formData = {
+    name: yourName.value,
+    email: yourEmail.value,
+    message: yourMessage.value,
+  };
+
+  // Save the data to local storage as a JSON string
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+// Add event listeners to the form input elements
+yourName.addEventListener('input', saveData);
+yourEmail.addEventListener('input', saveData);
+yourMessage.addEventListener('input', saveData);
+
+// Load the form data from local storage
+window.addEventListener('load', () => {
+  // Retrieve the saved form data from local storage
+  const savedFormData = localStorage.getItem('formData');
+
+  if (savedFormData) {
+    const formData = JSON.parse(savedFormData);
+    yourName.value = formData.name;
+    yourEmail.value = formData.email;
+    yourMessage.value = formData.message;
+  }
+});
