@@ -161,10 +161,6 @@ if (x === 1) {
 }
 
 // form validation
-
-
-
-
 const formSubmit = document.querySelector('#form');
 formSubmit.addEventListener('submit', (event) => {
   const emailInput = document.querySelector('#email');
