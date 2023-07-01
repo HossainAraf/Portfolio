@@ -171,7 +171,7 @@ formSubmit.addEventListener('submit', (event) => {
   const errorMessage = document.querySelector('#error-message');
 
   if (emailInput.value.toLowerCase() !== emailInput.value) {
-    errorMessage.innerText = 'Please enter a lowercase email address.';
+    errorMessage.innerText = 'Please enter lowercase email ID';
     errorMessage.style.display = 'block';
     event.preventDefault();
   } else {
