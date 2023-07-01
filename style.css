@@ -900,6 +900,7 @@ hr {
     height: 2rem;
     margin-left: 46%;
     margin-top: -1%;
+    position: static;
   }
 
   .navbar .menu li a {
