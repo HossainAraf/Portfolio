@@ -159,3 +159,19 @@ if (x === 1) {
   popupWC();
   popupW();
 }
+
+// form validation
+
+const formSubmit = document.querySelector('#form');
+formSubmit.addEventListener('submit', (event) => {
+  const emailInput = document.querySelector('#email');
+  const errorMessage = document.querySelector('#error-message');
+
+  if (emailInput.value.toLowerCase() !== emailInput.value) {
+    errorMessage.innerText = 'Please enter a lowercase email address.';
+    errorMessage.style.display = 'block';
+    event.preventDefault();
+  } else {
+    
+  }
+});
