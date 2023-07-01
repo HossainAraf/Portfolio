@@ -178,3 +178,6 @@ formSubmit.addEventListener('submit', (event) => {
     errorMessage.style.display = 'none';
   }
 });
+
+let name = document.getElementById('name').value;
+let email = document.getElementById('email').value;
