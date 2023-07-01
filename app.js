@@ -162,6 +162,9 @@ if (x === 1) {
 
 // form validation
 
+
+
+
 const formSubmit = document.querySelector('#form');
 formSubmit.addEventListener('submit', (event) => {
   const emailInput = document.querySelector('#email');
@@ -172,6 +175,6 @@ formSubmit.addEventListener('submit', (event) => {
     errorMessage.style.display = 'block';
     event.preventDefault();
   } else {
-    
+    errorMessage.style.display = 'none';
   }
 });
