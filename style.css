@@ -861,6 +861,15 @@ hr {
   }
 }
 
+#error-message {
+  display: flex;
+  color: #870000;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-weight: 600;
+  font-size: 16px;
+}
+
 @media only screen and (min-width: 768px) {
   .logo {
     display: flex;
@@ -891,6 +900,7 @@ hr {
     height: 2rem;
     margin-left: 46%;
     margin-top: -1%;
+    position: static;
   }
 
   .navbar .menu li a {
