@@ -210,18 +210,13 @@
 }
 
 /* Toogle menu */
-.menu:hover,
 .toggle-button:hover + .menu {
   display: flex;
-}
-
-.toggle-button:hover + .menu {
-  flex-wrap: wrap;
   margin-right: 5%;
 }
 
 .toggle-button:hover .menu-icon {
-  transform: rotate(45deg);
+  display: none;
 }
 
 .toggle-button:hover + .menu li {
