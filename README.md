@@ -43,15 +43,6 @@ This website provides an engaging and dynamic display of my skills, projects, an
 5. CSS-grid
 6. Flex-box
 
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 1. Add logo
