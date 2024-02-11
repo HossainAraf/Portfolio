@@ -1,5 +1,5 @@
 # Portfolio-Mobile-First
-It is an assignment given by Microverse.  The following technologies will be implemented: 1. Linters: hint, stylelint 2. CCS , CSS-grid, Flex-box 3. VS code 4. Git &amp; Github
+This website provides an engaging and dynamic display of my skills, projects, and experiences. The following technologies are implemented: 1. Linters: hint, stylelint 2. CCS , CSS-grid, Flex-box 3. VS code 4. Git &amp; Github
 <a name="readme-top"></a>
 
 <div align="center">
@@ -50,9 +50,10 @@ It is an assignment given by Microverse.  The following technologies will be imp
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
-1. Added index.html file
-2. Added stle.css file
-3. Added linters : hint & stylelint
+1. Add logo
+2. Showcase websites 
+3. Add linters : hint & stylelint
+4. Style webpage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
