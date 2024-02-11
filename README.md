@@ -1,5 +1,5 @@
 # Portfolio-Mobile-First
-This website provides an engaging and dynamic display of my skills, projects, and experiences. The following technologies are implemented: 1. Linters: hint, stylelint 2. CCS , CSS-grid, Flex-box 3. VS code 4. Git &amp; Github
+This website provides an engaging and dynamic display of my skills, projects, and experiences. 
 <a name="readme-top"></a>
 
 <div align="center">
@@ -39,6 +39,10 @@ This website provides an engaging and dynamic display of my skills, projects, an
 1. HTML5
 2. CSS
 3. HTML-CSS linters
+4. Linters: hint, stylelint
+5. CSS-grid
+6. Flex-box
+
 
 <details>
   <summary>Client</summary>
@@ -52,7 +56,6 @@ This website provides an engaging and dynamic display of my skills, projects, an
 ### Key Features <a name="key-features"></a>
 1. Add logo
 2. Showcase websites 
-3. Add linters : hint & stylelint
 4. Style webpage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
